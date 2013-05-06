@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OrbitsNet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\appicons\orbitsnet.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrbitsNetBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\appicons\orbitsnetblue.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amateurRadio" xml:space="preserve">
+    <value>Amateur radio</value>
+  </data>
+  <data name="breeze" xml:space="preserve">
+    <value>BREEZE-M R/B Breakup (2012-044C)</value>
+  </data>
+  <data name="brightest" xml:space="preserve">
+    <value>Brightest</value>
+  </data>
+  <data name="celestrack" xml:space="preserve">
+    <value>From celestrack.com</value>
+  </data>
+  <data name="communication" xml:space="preserve">
+    <value>Communication satellites</value>
+  </data>
+  <data name="cosmos" xml:space="preserve">
+    <value>COSMOS 2251 Debris</value>
+  </data>
+  <data name="cubes" xml:space="preserve">
+    <value>CubeSats</value>
+  </data>
+  <data name="disaster" xml:space="preserve">
+    <value>Disaster monitoring</value>
+  </data>
+  <data name="earthResources" xml:space="preserve">
+    <value>Earth resources</value>
+  </data>
+  <data name="education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="egnos" xml:space="preserve">
+    <value>Satellite-based augmentation system</value>
+  </data>
+  <data name="engineering" xml:space="preserve">
+    <value>Engineering</value>
+  </data>
+  <data name="experimental" xml:space="preserve">
+    <value>Experimental</value>
+  </data>
+  <data name="fengyun" xml:space="preserve">
+    <value>FENGYUN 1C Debris</value>
+  </data>
+  <data name="filesSelection" xml:space="preserve">
+    <value>TLE files selection</value>
+  </data>
+  <data name="galileo" xml:space="preserve">
+    <value>Galileo</value>
+  </data>
+  <data name="geodetic" xml:space="preserve">
+    <value>Geodetic</value>
+  </data>
+  <data name="geostationary" xml:space="preserve">
+    <value>Geostationary</value>
+  </data>
+  <data name="globalstar" xml:space="preserve">
+    <value>Globalstar</value>
+  </data>
+  <data name="glonass" xml:space="preserve">
+    <value>Glonass operational</value>
+  </data>
+  <data name="goes" xml:space="preserve">
+    <value>GOES</value>
+  </data>
+  <data name="gorizont" xml:space="preserve">
+    <value>Gorizont</value>
+  </data>
+  <data name="gps" xml:space="preserve">
+    <value>GPS operational</value>
+  </data>
+  <data name="intelsat" xml:space="preserve">
+    <value>Intelsat</value>
+  </data>
+  <data name="iridiumComm" xml:space="preserve">
+    <value>Iridium</value>
+  </data>
+  <data name="iridiumSpecial" xml:space="preserve">
+    <value>IRIDIUM 33 Debris</value>
+  </data>
+  <data name="lastLaunches" xml:space="preserve">
+    <value>Last 30 days launches</value>
+  </data>
+  <data name="localResources" xml:space="preserve">
+    <value>From local resources</value>
+  </data>
+  <data name="miscellaneous" xml:space="preserve">
+    <value>Miscellaneous satellites</value>
+  </data>
+  <data name="miscMilitary" xml:space="preserve">
+    <value>Miscellaneous military</value>
+  </data>
+  <data name="molniya" xml:space="preserve">
+    <value>Molniya</value>
+  </data>
+  <data name="navigation" xml:space="preserve">
+    <value>Navigation satellites</value>
+  </data>
+  <data name="navy" xml:space="preserve">
+    <value>Navy navigation satellite system (NNSS)</value>
+  </data>
+  <data name="noaa" xml:space="preserve">
+    <value>NOAA</value>
+  </data>
+  <data name="orbcomm" xml:space="preserve">
+    <value>Orbcomm</value>
+  </data>
+  <data name="otherComm" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="otherMisc" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="radarCalibration" xml:space="preserve">
+    <value>Radar calibration</value>
+  </data>
+  <data name="raduga" xml:space="preserve">
+    <value>Raduga</value>
+  </data>
+  <data name="russianLeo" xml:space="preserve">
+    <value>Russian LEO navigation</value>
+  </data>
+  <data name="scientific" xml:space="preserve">
+    <value>Scientific satellites</value>
+  </data>
+  <data name="searchAndRescue" xml:space="preserve">
+    <value>Search and rescue (SARSAT)</value>
+  </data>
+  <data name="selectTles" xml:space="preserve">
+    <value>Two line elements selection</value>
+  </data>
+  <data name="spaceAndEarth" xml:space="preserve">
+    <value>Space and Earth science</value>
+  </data>
+  <data name="spaceStations" xml:space="preserve">
+    <value>Space stations</value>
+  </data>
+  <data name="specialInterest" xml:space="preserve">
+    <value>Special-interest satellites</value>
+  </data>
+  <data name="trackingAndRelay" xml:space="preserve">
+    <value>Tracking and data relay satellite system (TDRSS)</value>
+  </data>
+  <data name="weather" xml:space="preserve">
+    <value>Weather</value>
+  </data>
+  <data name="weatherAndEarth" xml:space="preserve">
+    <value>Weather and Earth resources satellites</value>
+  </data>
+  <data name="World_Standard_HiRes_grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imgs\world-standard-hires_grey.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_forth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\back-forth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_forth_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\back-forth_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="batteries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\batteries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="batteries_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\batteries_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conversation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\conversation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conversation_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\conversation_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\cycle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cycle_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\cycle_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hospital_cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\hospital-cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hospital_cross_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\hospital-cross_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconAtomic_slashes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconatomic-slashes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconAtomic_slashes_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconatomic-slashes_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconAuto_repair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconauto-repair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconAuto_repair_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconauto-repair_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconBook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconbook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconBook2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconbook2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconBook2_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconbook2_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconBookOpen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconbookopen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconBookOpen_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconbookopen_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconBook_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconbook_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconChemical_drop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconchemical-drop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconChemical_drop_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconchemical-drop_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconCircuitry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconcircuitry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconCircuitry_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconcircuitry_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconCompass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconcompass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconCompass_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconcompass_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconCubes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconcubes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconCubes_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconcubes_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconForward_field" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconforward-field.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconForward_field_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconforward-field_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMaterials_science" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconmaterials-science.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMaterials_science_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconmaterials-science_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMatraz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconmatraz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMatraz_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconmatraz_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMesh_ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconmesh-ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMesh_ball_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconmesh-ball_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconOrbital" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconorbital.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconOrbital_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconorbital_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconPointing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconpointing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconPointing_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconpointing_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconRadar_dish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconradar-dish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconRadar_dish_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconradar-dish_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconRadar_sweep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconradar-sweep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconRadar_sweep_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconradar-sweep_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconRaining" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconraining.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconRaining_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconraining_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconRocket_flight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconrocket-flight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconRocket_flight_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconrocket-flight_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconSatellite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconsatellite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconSatellite_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconsatellite_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconStaryu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconstaryu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconStaryu_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconstaryu_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconStar_swirl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconstar-swirl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconStar_swirl_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconstar-swirl_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconSteelwing_emblem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconsteelwing-emblem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconSteelwing_emblem_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconsteelwing-emblem_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconTank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\icontank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconTank_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\icontank_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconWorld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\iconworld.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconWorld_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\iconworld_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interdiction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\interdiction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interdiction_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\interdiction_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lob_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\lob-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lob_arrow_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\lob-arrow_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnifying_glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\magnifying-glass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnifying_glass_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\magnifying-glass_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\medal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medal_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\medal_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="night_sky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\night-sky.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="night_sky_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\night-sky_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open_book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\open-book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open_book_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\open-book_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rapidshare_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\rapidshare-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rapidshare_arrow_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\rapidshare-arrow_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ringed_planet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\ringed-planet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ringed_planet_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\ringed-planet_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tornado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512\tornado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tornado_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\512_naranja\tornado_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="azimuth" xml:space="preserve">
+    <value>Azimuth</value>
+  </data>
+  <data name="btApply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="btClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btLoad" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="btPlot" xml:space="preserve">
+    <value>Plot</value>
+  </data>
+  <data name="btSelect" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="elevation" xml:space="preserve">
+    <value>Elevation</value>
+  </data>
+  <data name="gpCoordinates" xml:space="preserve">
+    <value>Site coordinates</value>
+  </data>
+  <data name="gpFilesToLoad" xml:space="preserve">
+    <value>From Celestrack.com</value>
+  </data>
+  <data name="gpLoadLocal" xml:space="preserve">
+    <value>Load from local resources</value>
+  </data>
+  <data name="gpSelectTles" xml:space="preserve">
+    <value>Available TLEs</value>
+  </data>
+  <data name="gpSummarySelected" xml:space="preserve">
+    <value>Files to load</value>
+  </data>
+  <data name="gpSummaryTles" xml:space="preserve">
+    <value>Elements to plot</value>
+  </data>
+  <data name="gpTime" xml:space="preserve">
+    <value>Time configuration</value>
+  </data>
+  <data name="gpTleDetails" xml:space="preserve">
+    <value>TLE detail</value>
+  </data>
+  <data name="lblAltitude" xml:space="preserve">
+    <value>Altitude [m]</value>
+  </data>
+  <data name="lblDays" xml:space="preserve">
+    <value>Days to compute</value>
+  </data>
+  <data name="lblLatitude" xml:space="preserve">
+    <value>Latitude [º]</value>
+  </data>
+  <data name="lblLongitude" xml:space="preserve">
+    <value>Longitude [º]</value>
+  </data>
+  <data name="lblStep" xml:space="preserve">
+    <value>Step [s]</value>
+  </data>
+  <data name="map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="polar" xml:space="preserve">
+    <value>Polar</value>
+  </data>
+  <data name="range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="tbLocalFile" xml:space="preserve">
+    <value> &lt; load local TLE file &gt;</value>
+  </data>
+  <data name="tpCartesian" xml:space="preserve">
+    <value>Cartesian</value>
+  </data>
+  <data name="tpConfig" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="tpFilesSelection" xml:space="preserve">
+    <value>File selection</value>
+  </data>
+  <data name="tpMap" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="tpPolar" xml:space="preserve">
+    <value>Polar</value>
+  </data>
+  <data name="tpTleSelection" xml:space="preserve">
+    <value>Tle selection</value>
+  </data>
+</root>

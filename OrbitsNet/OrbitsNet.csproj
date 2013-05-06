@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9312D0C1-F0D7-4BD4-8B2B-D95EBB9FAB09}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrbitsNet</RootNamespace>
+    <AssemblyName>OrbitsNet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FileAndTle.cs" />
+    <Compile Include="OrbitsNet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrbitsNet.Designer.cs">
+      <DependentUpon>OrbitsNet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrbitsElement.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BigButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\BigButton.Designer.cs">
+      <DependentUpon>BigButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ButtonEventArgs.cs" />
+    <Compile Include="UserControls\ExpandableGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ExpandableGroup.Designer.cs">
+      <DependentUpon>ExpandableGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MultiExpandable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MultiExpandable.Designer.cs">
+      <DependentUpon>MultiExpandable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OrbitsFileSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\OrbitsFileSelector.Designer.cs">
+      <DependentUpon>OrbitsFileSelector.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="OrbitsNet.resx">
+      <DependentUpon>OrbitsNet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\BigButton.resx">
+      <DependentUpon>BigButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ExpandableGroup.resx">
+      <DependentUpon>ExpandableGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MultiExpandable.resx">
+      <DependentUpon>MultiExpandable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OrbitsFileSelector.resx">
+      <DependentUpon>OrbitsFileSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{99510ed5-99e0-405d-bcac-9159a7426d61}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Orbit\Orbit.csproj">
+      <Project>{baa5fe10-3e3a-4d5d-ab3d-4b50d6ac0321}</Project>
+      <Name>Orbit</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppIcons\OrbitsNet.ico" />
+    <Content Include="AppIcons\OrbitsNetBlue.ico" />
+    <Content Include="AppIcons\OrbitsNetBlue_16.png" />
+    <Content Include="AppIcons\OrbitsNetBlue_32.png" />
+    <Content Include="AppIcons\OrbitsNetBlue_48.png" />
+    <Content Include="AppIcons\OrbitsNetBlue_512.png" />
+    <Content Include="AppIcons\OrbitsNetBlue_64.png" />
+    <Content Include="AppIcons\orbitsNetDouble.ico" />
+    <Content Include="AppIcons\OrbitsNet_16.png" />
+    <Content Include="AppIcons\OrbitsNet_32.png" />
+    <Content Include="AppIcons\OrbitsNet_48.png" />
+    <Content Include="AppIcons\OrbitsNet_512.png" />
+    <Content Include="AppIcons\OrbitsNet_64.png" />
+    <Content Include="Icons\512\back-forth.png" />
+    <Content Include="Icons\512\batteries.png" />
+    <Content Include="Icons\512\conversation.png" />
+    <Content Include="Icons\512\cycle.png" />
+    <Content Include="Icons\512\hospital-cross.png" />
+    <Content Include="Icons\512\iconAtomic-slashes.png" />
+    <Content Include="Icons\512\iconAuto-repair.png" />
+    <Content Include="Icons\512\iconBook.png" />
+    <Content Include="Icons\512\iconBook2.png" />
+    <Content Include="Icons\512\iconBookOpen.png" />
+    <Content Include="Icons\512\IconChemical-drop.png" />
+    <Content Include="Icons\512\iconCircuitry.png" />
+    <Content Include="Icons\512\iconCompass.png" />
+    <Content Include="Icons\512\iconCubes.png" />
+    <Content Include="Icons\512\iconForward-field.png" />
+    <Content Include="Icons\512\iconMaterials-science.png" />
+    <Content Include="Icons\512\iconMatraz.png" />
+    <Content Include="Icons\512\iconMesh-ball.png" />
+    <Content Include="Icons\512\iconOrbital.png" />
+    <Content Include="Icons\512\iconPointing.png" />
+    <Content Include="Icons\512\IconRadar-dish.png" />
+    <Content Include="Icons\512\iconRadar-sweep.png" />
+    <Content Include="Icons\512\iconRaining.png" />
+    <Content Include="Icons\512\iconRocket-flight.png" />
+    <Content Include="Icons\512\iconSatellite.png" />
+    <Content Include="Icons\512\iconStar-swirl.png" />
+    <Content Include="Icons\512\iconStaryu.png" />
+    <Content Include="Icons\512\iconSteelwing-emblem.png" />
+    <Content Include="Icons\512\iconTank.png" />
+    <Content Include="Icons\512\iconWorld.png" />
+    <Content Include="Icons\512\interdiction.png" />
+    <Content Include="Icons\512\lob-arrow.png" />
+    <Content Include="Icons\512\magnifying-glass.png" />
+    <Content Include="Icons\512\medal.png" />
+    <Content Include="Icons\512\night-sky.png" />
+    <Content Include="Icons\512\open-book.png" />
+    <Content Include="Icons\512\rapidshare-arrow.png" />
+    <Content Include="Icons\512\ringed-planet.png" />
+    <Content Include="Icons\512\tornado.png" />
+    <Content Include="Icons\512_naranja\back-forth_o.png" />
+    <Content Include="Icons\512_naranja\batteries_o.png" />
+    <Content Include="Icons\512_naranja\conversation_o.png" />
+    <Content Include="Icons\512_naranja\cycle_o.png" />
+    <Content Include="Icons\512_naranja\hospital-cross_o.png" />
+    <Content Include="Icons\512_naranja\iconAtomic-slashes_o.png" />
+    <Content Include="Icons\512_naranja\iconAuto-repair_o.png" />
+    <Content Include="Icons\512_naranja\iconBook2_o.png" />
+    <Content Include="Icons\512_naranja\iconBookOpen_o.png" />
+    <Content Include="Icons\512_naranja\iconBook_o.png" />
+    <Content Include="Icons\512_naranja\IconChemical-drop_o.png" />
+    <Content Include="Icons\512_naranja\iconCircuitry_o.png" />
+    <Content Include="Icons\512_naranja\iconCompass_o.png" />
+    <Content Include="Icons\512_naranja\iconCubes_o.png" />
+    <Content Include="Icons\512_naranja\iconForward-field_o.png" />
+    <Content Include="Icons\512_naranja\iconMaterials-science_o.png" />
+    <Content Include="Icons\512_naranja\iconMatraz_o.png" />
+    <Content Include="Icons\512_naranja\iconMesh-ball_o.png" />
+    <Content Include="Icons\512_naranja\iconOrbital_o.png" />
+    <Content Include="Icons\512_naranja\iconPointing_o.png" />
+    <Content Include="Icons\512_naranja\IconRadar-dish_o.png" />
+    <Content Include="Icons\512_naranja\iconRadar-sweep_o.png" />
+    <Content Include="Icons\512_naranja\iconRaining_o.png" />
+    <Content Include="Icons\512_naranja\iconRocket-flight_o.png" />
+    <Content Include="Icons\512_naranja\iconSatellite_o.png" />
+    <Content Include="Icons\512_naranja\iconStar-swirl_o.png" />
+    <Content Include="Icons\512_naranja\iconStaryu_o.png" />
+    <Content Include="Icons\512_naranja\iconSteelwing-emblem_o.png" />
+    <Content Include="Icons\512_naranja\iconTank_o.png" />
+    <Content Include="Icons\512_naranja\iconWorld_o.png" />
+    <Content Include="Icons\512_naranja\interdiction_o.png" />
+    <Content Include="Icons\512_naranja\lob-arrow_o.png" />
+    <Content Include="Icons\512_naranja\magnifying-glass_o.png" />
+    <Content Include="Icons\512_naranja\medal_o.png" />
+    <Content Include="Icons\512_naranja\night-sky_o.png" />
+    <Content Include="Icons\512_naranja\open-book_o.png" />
+    <Content Include="Icons\512_naranja\rapidshare-arrow_o.png" />
+    <Content Include="Icons\512_naranja\ringed-planet_o.png" />
+    <Content Include="Icons\512_naranja\tornado_o.png" />
+    <Content Include="Imgs\World-Standard-HiRes_grey.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
